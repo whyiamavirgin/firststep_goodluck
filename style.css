@@ -1,0 +1,92 @@
+@font-face {
+    font-family: HelveticaNeueCyr-Heavy;
+    src: url(HelveticaNeueCyr-Heavy.ttf);
+}
+@font-face {
+    font-family: HelveticaNeueCyr-Roman;
+    src: url(HelveticaNeueCyr-Roman.ttf);
+}
+html a {
+    outline: none;
+}
+body {
+    font-family: HelveticaNeueCyr-Roman;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 500px;
+}
+
+.butp {
+    width: auto;
+    height: auto;
+    font-family: HelveticaNeueCyr-Heavy;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.first {
+    text-align: center;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+.hidden {
+    visibility: visible;
+    opacity: 1;
+    transition: 5s ease-in-out;
+    color: black;
+}
+
+.centered-hidden {
+    margin-top: -280px;
+}
+
+#second {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+#first {
+    text-align: center;
+    font-size: xx-large;
+}
+.hidden2 {
+    visibility: hidden;
+    opacity: 0;
+    transition: 2.2s ease-in-out;
+}
+
+.first2 {
+    opacity: 0;
+    transition: 3s ease-in-out;
+    visibility: hidden;
+}
+
+.binarydiv {
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: -5%;
+    /* width: 60%; */
+}
+
+.binary{
+    visibility: hidden;
+    opacity: 0;
+    transition: 3s ease-in-out;
+}
+
+.binarynorm {
+    visibility: visible;
+    opacity: 1;
+    transition: 3s ease-in-out;
+}
