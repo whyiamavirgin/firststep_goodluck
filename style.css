@@ -12,6 +12,11 @@ html a {
 body {
     font-family: HelveticaNeueCyr-Roman;
 }
+
+.white {
+    margin-top: -5%;
+}
+
 .center {
     display: flex;
     justify-content: center;
